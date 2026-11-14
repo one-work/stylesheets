@@ -197,15 +197,18 @@
     }
   }
 
-  tr.left-border {
-    & > td:first-child {
-      border-left: solid 1px var(--text-light);
+  &:not(.no-rowspan) {
+    tr:nth-last-child(1 of :has([rowspan])) {
+      td[rowspan],
+      th[rowspan] {
+        border-bottom-width: 0;
+      }
     }
   }
 
-  tr:nth-last-child(1 of :has([rowspan])) {
-    td, th {
-      border-bottom-width: 0;
+  tr.left-border {
+    & > td:first-child {
+      border-left: solid 1px var(--text-light);
     }
   }
 }
