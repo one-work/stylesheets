@@ -1,10 +1,12 @@
 body,
+page, // 适配小程序
 #panel {
   display: flex;
   flex-direction: column;
 }
 
-body {
+body,
+page {
   height: 100vh; // 只有设置了 height, 子元素的 height 100% 才会生效
   height: 100dvh;
   min-height: 100vh;
