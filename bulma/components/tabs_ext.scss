@@ -7,7 +7,8 @@
     overflow: visible;
     background-color: white;
 
-    a {
+    a,
+    .tab {
       padding-top: 0;
       padding-bottom: 0;
       flex-direction: column;
@@ -19,7 +20,8 @@
         color: var(--primary);
       }
 
-      svg + span {
+      .icon + span,
+      .icon + .size-7 {
         margin-left: 0;
         margin-top: 4px;
       }
