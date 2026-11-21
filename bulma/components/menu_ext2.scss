@@ -42,11 +42,15 @@
       background-color: white;
     }
 
+    button {
+      text-align: center;
+    }
+
     .menu-item {
       --menu-list-link-padding: 0.7em 0.75em;
 
       box-sizing: content-box;
-      width: 4rem;
+      width: calc(4em + 2px);
       text-align: center;
       background-color: #f0f0f0;
 
