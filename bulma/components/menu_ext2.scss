@@ -78,6 +78,8 @@
 
   &.as-side,
   &.as-wrap {
+    scrollbar-width: none;
+
     .menu-list {
       scrollbar-width: none;
     }
