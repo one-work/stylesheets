@@ -45,7 +45,8 @@
     .menu-item {
       --menu-list-link-padding: 0.7em 0.75em;
 
-      width: calc(4em + 1.5rem);
+      box-sizing: content-box;
+      width: 4em;
       text-align: center;
       background-color: #f0f0f0;
 
